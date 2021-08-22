@@ -1,0 +1,30 @@
+@import "../../_base.scss";
+
+.overlaywindow{
+
+    position: absolute;
+    left: 4px;
+    top: 24px;
+   width: 15rem;
+   height: 15rem;
+   color:white;
+   background-color:rgba(53, 51, 51, 0.5);
+   flex-direction: column;
+   display: none;
+   padding:0.3rem;
+   justify-content:space-between;
+
+   &__item{
+       display:flex;
+       justify-content:space-between;
+       border-radius:4px;
+       padding:0.3rem 0.2rem;
+       &:hover{
+           background-color: rgba(27, 45, 151, 0.8);
+           cursor: pointer;
+       }
+   }
+}
+.visibility{
+    display:flex;
+}

@@ -11,6 +11,7 @@ import "./_header.scss";
 import Modal from "react-modal";
 import Finder from "../../component/finder/Finder";
 import File from "../../component/file/File";
+import Window from "../../component/window/Window";
 
 
 function Header() {
@@ -39,6 +40,7 @@ function Header() {
     <nav className="header">
       <Finder coordinate={coordinate} />
       <File coordinate={coordinate} />
+      <Window coordinate={coordinate} />
       <div className="header__left">
         <span
           id="mac"
