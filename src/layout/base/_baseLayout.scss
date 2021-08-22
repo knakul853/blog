@@ -1,0 +1,12 @@
+@import "../../base";
+
+.baselayout{
+
+    width:100%;
+    height: 100%;
+    display: flex;
+    background: url('../../assets/img/background-1.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+}

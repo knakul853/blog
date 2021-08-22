@@ -1,0 +1,32 @@
+@import '../../_base.scss';
+
+.header{
+    width: 100%;
+    display: flex;
+    padding:0.2rem 0rem;
+    height:2rem;
+    background:transparent;
+    background-color: rgba(62, 132, 179, 0.5);
+    font-size: 0.9em;
+    justify-content: space-between;
+    
+    &__left{
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+
+        &__item{
+            margin: 0 0.7rem;
+            cursor: pointer;
+        }
+    }
+    &__right{
+        display: flex;
+        justify-content: space-between;
+        &__item{
+            margin: 0 0.7rem;
+            cursor: pointer;
+        }
+    }
+
+}
